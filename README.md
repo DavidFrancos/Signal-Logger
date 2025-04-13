@@ -47,11 +47,15 @@ iceprog top_module.bin
 
 The system uses a 115200 baud, 8N1 UART protocol to receive commands and transmit log data in human-readable ASCII.
 
-ASCII Command	Action
-S	      Start Logging
-T	      Stop Logging
-D	      Dump Log via UART
-C	      Clear FIFO Buffer
+ASCII | Command	Action
+
+S        Start Logging
+
+T        Stop Logging
+
+D	       Dump Log via UART
+
+C	       Clear FIFO Buffer
 
 
 📤 Log Format (ASCII Output)
