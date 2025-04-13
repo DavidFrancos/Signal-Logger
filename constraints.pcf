@@ -1,0 +1,10 @@
+set_io clk 35
+set_io rst 4
+set_io raw_switch0 44
+set_io raw_switch1 46
+set_io tx 9
+set_io rx 6
+set_io debug_up 23
+set_io debug_down 21
+set_io debug_left 27
+set_io debug_right 25
