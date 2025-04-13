@@ -22,7 +22,7 @@ This FPGA project implements a UART-based digital signal logger using a modular 
 📜 Hardware Requirements
 
 🖥️ ICEBreaker FPGA (Lattice iCE40UP5K)  
-🔘 2 Push Buttons (Monitored Inputs)  
+🔘 2 Switches (Monitored Inputs)  
 💡 3 LEDs (Optional Debug/State Display)  
 🖧 USB-UART Interface (FTDI/CH340)  
 💻 PC with a Serial Monitor (Tera Term, Minicom, PuTTY)
