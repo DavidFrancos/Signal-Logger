@@ -1,0 +1,8 @@
+yosys -p "read_verilog -sv state_defs.svh; read_verilog -sv top_module.sv; read_verilog -sv signal_logger.sv; read_verilog -sv signal_tx.sv; read_verilog -sv signal_rx.sv; read_verilog -sv transmitter_decoder.sv; read_verilog -sv fifo_storage.sv; read_verilog -sv state_select.sv; read_verilog -sv switch_debounce.sv; synth_ice40 -top signal_logger -json signal_logger.json"
+
+
+nextpnr-ice40 --up5k --package sg48 --json top_module.json --pcf constraints.pcf --asc top_module.asc --freq 12
+
+icepack top_module.asc top_module.bin
+
+iceprog top_module.bin
