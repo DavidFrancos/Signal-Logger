@@ -1,3 +1,5 @@
+https://youtu.be/6C0LB8sFwxM
+
 🚀 UART-Based Signal Logger on FPGA
 
 📌 Project Overview
